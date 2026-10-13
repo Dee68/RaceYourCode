@@ -1,0 +1,16 @@
+name: TORCS Competition
+version: 1.0.0
+schema: v1
+
+models:
+  - name: Granite 4.0 350M
+    provider: ollama
+    model: granite4:350m
+    apiBase: http://localhost:11434
+    roles:
+      - chat
+      - edit
+      - apply
+      - autocomplete
+
+allowAnonymousTelemetry: false
