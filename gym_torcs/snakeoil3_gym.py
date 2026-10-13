@@ -569,7 +569,7 @@ def calculate_corner_speed(fwd, left_diag, right_diag, track_pos):
     '''
     CORNER_K    = 3.1
     ASYM_GAIN   = 0.5
-    SPEED_FLOOR = 76.0
+    SPEED_FLOOR = 78.0
 
     # Asymmetry ∈ [0, ~0.5]: 0 = symmetric (straight), ~0.4 = sharp hairpin
     # Clamped: diagonal sensors can read 0 on track edge — avoid divide-by-zero
